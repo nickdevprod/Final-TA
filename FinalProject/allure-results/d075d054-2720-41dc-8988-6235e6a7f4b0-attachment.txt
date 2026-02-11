@@ -1,0 +1,28 @@
+POST https://automationexercise.com/api/verifyLogin
+
+Status: 200 HTTP/1.1 200 OK
+
+Headers:
+Date: Wed, 11 Feb 2026 21:38:38 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+vary: Accept,Cookie,Accept-Encoding
+referrer-policy: same-origin
+x-frame-options: DENY
+x-content-type-options: nosniff
+allow: POST, GET, DELETE, PUT, OPTIONS
+x-powered-by: Phusion Passenger(R) 6.1.0
+status: 200 OK
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=0zWH7wiV1WrrEOzgO%2FjRfSVcP2Hj%2FLU%2FyblIvJ7TxNbAcn29pfwNMpwF5xz9%2Bb0IDb1IrkIiT%2FOy7I51m%2Fvfu%2F61oZpfEqzJCjqvdlISqTju8q5HznQ%3D"}]}
+Server: cloudflare
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Content-Encoding: gzip
+CF-RAY: 9cc6fe858a654e68-TBS
+alt-svc: h3=":443"; ma=86400
+
+Body:
+<html>
+  <body>{"responseCode": 404, "message": "User not found!"}</body>
+</html>

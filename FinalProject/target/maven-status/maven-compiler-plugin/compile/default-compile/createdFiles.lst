@@ -1,0 +1,9 @@
+com\automationexercise\pages\ContactUsPage.class
+com\automationexercise\core\DriverManager.class
+com\automationexercise\pages\HomePage.class
+com\automationexercise\pages\CartPage.class
+com\automationexercise\core\BasePage.class
+com\automationexercise\pages\LoginPage.class
+com\automationexercise\pages\ProductsPage.class
+com\automationexercise\pages\SignupDetailsPage.class
+com\automationexercise\pages\CheckoutPage.class

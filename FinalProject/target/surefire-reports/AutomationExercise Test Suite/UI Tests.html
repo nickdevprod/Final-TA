@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>TestNG:  UI Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>UI Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Feb 12 01:41:31 GMT+04:00 2026</td>
+</tr>
+<tr><td>Total time:</td><td>47 seconds (47356 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.automationexercise.tests.ui.CartAndCheckoutTests.placeOrderAfterLogin()'><b>placeOrderAfterLogin</b><br>Test class: com.automationexercise.tests.ui.CartAndCheckoutTests<br>Test method: TC_UI_08: Reach checkout after login</td>
+<td></td>
+<td>11</td>
+<td>com.automationexercise.tests.ui.CartAndCheckoutTests@54e1c68b</td></tr>
+<tr>
+<td title='com.automationexercise.tests.ui.HomeAndAuthTests.registerUserWithValidData()'><b>registerUserWithValidData</b><br>Test class: com.automationexercise.tests.ui.HomeAndAuthTests<br>Test method: TC_UI_02: Register user with valid info</td>
+<td></td>
+<td>8</td>
+<td>com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7</td></tr>
+<tr>
+<td title='com.automationexercise.tests.ui.CartAndCheckoutTests.removeProductFromCart()'><b>removeProductFromCart</b><br>Test class: com.automationexercise.tests.ui.CartAndCheckoutTests<br>Test method: TC_UI_07: Remove product from cart</td>
+<td></td>
+<td>2</td>
+<td>com.automationexercise.tests.ui.CartAndCheckoutTests@54e1c68b</td></tr>
+<tr>
+<td title='com.automationexercise.tests.ui.HomeAndAuthTests.loginWithCorrectCredentials()'><b>loginWithCorrectCredentials</b><br>Test class: com.automationexercise.tests.ui.HomeAndAuthTests<br>Test method: TC_UI_03: Login with correct email and password</td>
+<td></td>
+<td>4</td>
+<td>com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7</td></tr>
+<tr>
+<td title='com.automationexercise.tests.ui.HomeAndAuthTests.loginWithWrongPasswordShowsError()'><b>loginWithWrongPasswordShowsError</b><br>Test class: com.automationexercise.tests.ui.HomeAndAuthTests<br>Test method: TC_UI_04: Login with wrong password</td>
+<td></td>
+<td>2</td>
+<td>com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7</td></tr>
+<tr>
+<td title='com.automationexercise.tests.ui.ContactAndSearchTests.searchProductsByKeyword()'><b>searchProductsByKeyword</b><br>Test class: com.automationexercise.tests.ui.ContactAndSearchTests<br>Test method: TC_UI_10: Search products by keyword</td>
+<td></td>
+<td>3</td>
+<td>com.automationexercise.tests.ui.ContactAndSearchTests@53aac487</td></tr>
+<tr>
+<td title='com.automationexercise.tests.ui.HomeAndAuthTests.homePageShouldBeVisible()'><b>homePageShouldBeVisible</b><br>Test class: com.automationexercise.tests.ui.HomeAndAuthTests<br>Test method: TC_UI_01: Home page is visible after opening site</td>
+<td></td>
+<td>0</td>
+<td>com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7</td></tr>
+<tr>
+<td title='com.automationexercise.tests.ui.HomeAndAuthTests.logoutUserFromHomePage()'><b>logoutUserFromHomePage</b><br>Test class: com.automationexercise.tests.ui.HomeAndAuthTests<br>Test method: TC_UI_05: Logout user from header</td>
+<td></td>
+<td>8</td>
+<td>com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7</td></tr>
+<tr>
+<td title='com.automationexercise.tests.ui.CartAndCheckoutTests.addProductToCart()'><b>addProductToCart</b><br>Test class: com.automationexercise.tests.ui.CartAndCheckoutTests<br>Test method: TC_UI_06: Add product to cart and see it there</td>
+<td></td>
+<td>3</td>
+<td>com.automationexercise.tests.ui.CartAndCheckoutTests@54e1c68b</td></tr>
+<tr>
+<td title='com.automationexercise.tests.ui.ContactAndSearchTests.sendContactUsMessage()'><b>sendContactUsMessage</b><br>Test class: com.automationexercise.tests.ui.ContactAndSearchTests<br>Test method: TC_UI_09: Submit 'Contact Us' form</td>
+<td></td>
+<td>2</td>
+<td>com.automationexercise.tests.ui.ContactAndSearchTests@53aac487</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,28 @@
+POST https://automationexercise.com/api/productsList
+
+Status: 200 HTTP/1.1 200 OK
+
+Headers:
+Date: Wed, 11 Feb 2026 21:41:37 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+vary: Accept,Cookie,Accept-Encoding
+referrer-policy: same-origin
+x-frame-options: DENY
+x-content-type-options: nosniff
+allow: POST, GET, DELETE, PUT, OPTIONS
+x-powered-by: Phusion Passenger(R) 6.1.0
+status: 200 OK
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=vZeY7XFde8enr173oWsCsQvSnUq2l%2B6bSAQsMkRwz3zcTELgWATjfmZz10PNviZZmClPfyHOP4yljJSK3%2FoWkDSEANhLi011HN9fgs%2B7lnEzycon80w%3D"}]}
+Server: cloudflare
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Content-Encoding: gzip
+CF-RAY: 9cc702ecfb759cc7-TBS
+alt-svc: h3=":443"; ma=86400
+
+Body:
+<html>
+  <body>{"responseCode": 405, "message": "This request method is not supported."}</body>
+</html>

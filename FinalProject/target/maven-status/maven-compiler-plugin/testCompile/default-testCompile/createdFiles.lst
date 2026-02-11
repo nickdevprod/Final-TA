@@ -1,0 +1,10 @@
+com\automationexercise\tests\ui\CartAndCheckoutTests.class
+com\automationexercise\tests\ui\HomeAndAuthTests.class
+com\automationexercise\tests\api\AccountApiTests.class
+com\automationexercise\core\BaseTest.class
+com\automationexercise\tests\api\BaseApiTest.class
+com\automationexercise\tests\api\LoginApiTests.class
+com\automationexercise\tests\api\AllureApiFilter.class
+com\automationexercise\listeners\TestListener.class
+com\automationexercise\tests\api\ProductsApiTests.class
+com\automationexercise\tests\ui\ContactAndSearchTests.class

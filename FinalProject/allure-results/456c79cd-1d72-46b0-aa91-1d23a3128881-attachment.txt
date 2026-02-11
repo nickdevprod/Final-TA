@@ -1,0 +1,28 @@
+DELETE https://automationexercise.com/api/verifyLogin
+
+Status: 200 HTTP/1.1 200 OK
+
+Headers:
+Date: Wed, 11 Feb 2026 21:38:36 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+vary: Accept,Cookie,Accept-Encoding
+referrer-policy: same-origin
+x-frame-options: DENY
+x-content-type-options: nosniff
+allow: OPTIONS, GET, DELETE, POST, PUT
+x-powered-by: Phusion Passenger(R) 6.1.0
+status: 200 OK
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Wl7B9a0IZite0QmsrhrkVn7EyVgI%2FM9pSNit3v1Dwn%2BmKHw9TJBEonzwxzJXvOQarJdUpuP%2F9PxzNgBANklU9C%2FRZ%2F90bXPY%2BZJmMPlzJB%2Feo3sKuwU%3D"}]}
+Server: cloudflare
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Content-Encoding: gzip
+CF-RAY: 9cc6fe7cec545e15-TBS
+alt-svc: h3=":443"; ma=86400
+
+Body:
+<html>
+  <body>{"responseCode": 405, "message": "This request method is not supported."}</body>
+</html>

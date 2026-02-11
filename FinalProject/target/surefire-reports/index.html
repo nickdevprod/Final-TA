@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-AutomationExercise_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">AutomationExercise Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-AutomationExercise_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\NickD\Documents\GitHub\selenium-homework\TA-Final\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-AutomationExercise_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-AutomationExercise_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-AutomationExercise_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-AutomationExercise_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-AutomationExercise_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-AutomationExercise_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AutomationExercise_Test_Suite" class="hide-methods passed suite-AutomationExercise_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-AutomationExercise_Test_Suite -->
+                      <a href="#" panel-name="suite-AutomationExercise_Test_Suite" class="show-methods passed suite-AutomationExercise_Test_Suite"> (show)</a> <!-- show-methods passed suite-AutomationExercise_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-AutomationExercise_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Test_Suite" title="com.automationexercise.tests.ui.CartAndCheckoutTests" class="method navigator-link" hash-for-method="addProductToCart">addProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Test_Suite" title="com.automationexercise.tests.api.AccountApiTests" class="method navigator-link" hash-for-method="createAccount_withMissingFields_shouldReturn400">createAccount_withMissingFields_shouldReturn400</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Test_Suite" title="com.automationexercise.tests.api.LoginApiTests" class="method navigator-link" hash-for-method="deleteVerifyLogin_shouldReturn405">deleteVerifyLogin_shouldReturn405</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Test_Suite" title="com.automationexercise.tests.api.AccountApiTests" class="method navigator-link" hash-for-method="getBrandsList_shouldReturn200">getBrandsList_shouldReturn200</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Test_Suite" title="com.automationexercise.tests.api.ProductsApiTests" class="method navigator-link" hash-for-method="getProductsList_shouldContainKnownProductName">getProductsList_shouldContainKnownProductName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Test_Suite" title="com.automationexercise.tests.api.ProductsApiTests" class="method navigator-link" hash-for-method="getProductsList_shouldReturn200AndNonEmptyList">getProductsList_shouldReturn200AndNonEmptyList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Test_Suite" title="com.automationexercise.tests.ui.HomeAndAuthTests" class="method navigator-link" hash-for-method="homePageShouldBeVisible">homePageShouldBeVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Test_Suite" title="com.automationexercise.tests.ui.HomeAndAuthTests" class="method navigator-link" hash-for-method="loginWithCorrectCredentials">loginWithCorrectCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Test_Suite" title="com.automationexercise.tests.ui.HomeAndAuthTests" class="method navigator-link" hash-for-method="loginWithWrongPasswordShowsError">loginWithWrongPasswordShowsError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Test_Suite" title="com.automationexercise.tests.ui.HomeAndAuthTests" class="method navigator-link" hash-for-method="logoutUserFromHomePage">logoutUserFromHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Test_Suite" title="com.automationexercise.tests.ui.CartAndCheckoutTests" class="method navigator-link" hash-for-method="placeOrderAfterLogin">placeOrderAfterLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Test_Suite" title="com.automationexercise.tests.api.ProductsApiTests" class="method navigator-link" hash-for-method="postProductsList_shouldReturn405">postProductsList_shouldReturn405</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Test_Suite" title="com.automationexercise.tests.ui.HomeAndAuthTests" class="method navigator-link" hash-for-method="registerUserWithValidData">registerUserWithValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Test_Suite" title="com.automationexercise.tests.ui.CartAndCheckoutTests" class="method navigator-link" hash-for-method="removeProductFromCart">removeProductFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Test_Suite" title="com.automationexercise.tests.api.AccountApiTests" class="method navigator-link" hash-for-method="searchProduct_withEmptyName_shouldReturnAllProducts">searchProduct_withEmptyName_shouldReturnAllProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Test_Suite" title="com.automationexercise.tests.api.AccountApiTests" class="method navigator-link" hash-for-method="searchProduct_withValidName_shouldReturnResults">searchProduct_withValidName_shouldReturnResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Test_Suite" title="com.automationexercise.tests.ui.ContactAndSearchTests" class="method navigator-link" hash-for-method="searchProductsByKeyword">searchProductsByKeyword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Test_Suite" title="com.automationexercise.tests.ui.ContactAndSearchTests" class="method navigator-link" hash-for-method="sendContactUsMessage">sendContactUsMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Test_Suite" title="com.automationexercise.tests.api.LoginApiTests" class="method navigator-link" hash-for-method="verifyLogin_withInvalidCredentials_shouldReturn404">verifyLogin_withInvalidCredentials_shouldReturn404</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Test_Suite" title="com.automationexercise.tests.api.LoginApiTests" class="method navigator-link" hash-for-method="verifyLogin_withoutEmail_shouldReturn400">verifyLogin_withoutEmail_shouldReturn400</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AutomationExercise_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AutomationExercise_Test_Suite" class="panel AutomationExercise_Test_Suite">
+          <div class="suite-AutomationExercise_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automationexercise.tests.ui.CartAndCheckoutTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductToCart">
+                  </a> <!-- addProductToCart -->
+                  <span class="method-name">addProductToCart</span>
+                  <em>
+(TC_UI_06: Add product to cart and see it there)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrderAfterLogin">
+                  </a> <!-- placeOrderAfterLogin -->
+                  <span class="method-name">placeOrderAfterLogin</span>
+                  <em>
+(TC_UI_08: Reach checkout after login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeProductFromCart">
+                  </a> <!-- removeProductFromCart -->
+                  <span class="method-name">removeProductFromCart</span>
+                  <em>
+(TC_UI_07: Remove product from cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationExercise_Test_Suite-class-passed -->
+          <div class="suite-AutomationExercise_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automationexercise.tests.ui.HomeAndAuthTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageShouldBeVisible">
+                  </a> <!-- homePageShouldBeVisible -->
+                  <span class="method-name">homePageShouldBeVisible</span>
+                  <em>
+(TC_UI_01: Home page is visible after opening site)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithCorrectCredentials">
+                  </a> <!-- loginWithCorrectCredentials -->
+                  <span class="method-name">loginWithCorrectCredentials</span>
+                  <em>
+(TC_UI_03: Login with correct email and password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithWrongPasswordShowsError">
+                  </a> <!-- loginWithWrongPasswordShowsError -->
+                  <span class="method-name">loginWithWrongPasswordShowsError</span>
+                  <em>
+(TC_UI_04: Login with wrong password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutUserFromHomePage">
+                  </a> <!-- logoutUserFromHomePage -->
+                  <span class="method-name">logoutUserFromHomePage</span>
+                  <em>
+(TC_UI_05: Logout user from header)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUserWithValidData">
+                  </a> <!-- registerUserWithValidData -->
+                  <span class="method-name">registerUserWithValidData</span>
+                  <em>
+(TC_UI_02: Register user with valid info)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationExercise_Test_Suite-class-passed -->
+          <div class="suite-AutomationExercise_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automationexercise.tests.ui.ContactAndSearchTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProductsByKeyword">
+                  </a> <!-- searchProductsByKeyword -->
+                  <span class="method-name">searchProductsByKeyword</span>
+                  <em>
+(TC_UI_10: Search products by keyword)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendContactUsMessage">
+                  </a> <!-- sendContactUsMessage -->
+                  <span class="method-name">sendContactUsMessage</span>
+                  <em>
+(TC_UI_09: Submit 'Contact Us' form)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationExercise_Test_Suite-class-passed -->
+          <div class="suite-AutomationExercise_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automationexercise.tests.api.AccountApiTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount_withMissingFields_shouldReturn400">
+                  </a> <!-- createAccount_withMissingFields_shouldReturn400 -->
+                  <span class="method-name">createAccount_withMissingFields_shouldReturn400</span>
+                  <em>
+(TC_API_07: POST /createAccount with missing fields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getBrandsList_shouldReturn200">
+                  </a> <!-- getBrandsList_shouldReturn200 -->
+                  <span class="method-name">getBrandsList_shouldReturn200</span>
+                  <em>
+(TC_API_08: GET /brandsList returns 200)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProduct_withEmptyName_shouldReturnAllProducts">
+                  </a> <!-- searchProduct_withEmptyName_shouldReturnAllProducts -->
+                  <span class="method-name">searchProduct_withEmptyName_shouldReturnAllProducts</span>
+                  <em>
+(TC_API_10: POST /searchProduct with empty term)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProduct_withValidName_shouldReturnResults">
+                  </a> <!-- searchProduct_withValidName_shouldReturnResults -->
+                  <span class="method-name">searchProduct_withValidName_shouldReturnResults</span>
+                  <em>
+(TC_API_09: POST /searchProduct with valid term)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationExercise_Test_Suite-class-passed -->
+          <div class="suite-AutomationExercise_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automationexercise.tests.api.LoginApiTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteVerifyLogin_shouldReturn405">
+                  </a> <!-- deleteVerifyLogin_shouldReturn405 -->
+                  <span class="method-name">deleteVerifyLogin_shouldReturn405</span>
+                  <em>
+(TC_API_06: DELETE /verifyLogin not allowed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin_withInvalidCredentials_shouldReturn404">
+                  </a> <!-- verifyLogin_withInvalidCredentials_shouldReturn404 -->
+                  <span class="method-name">verifyLogin_withInvalidCredentials_shouldReturn404</span>
+                  <em>
+(TC_API_04: POST /verifyLogin with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin_withoutEmail_shouldReturn400">
+                  </a> <!-- verifyLogin_withoutEmail_shouldReturn400 -->
+                  <span class="method-name">verifyLogin_withoutEmail_shouldReturn400</span>
+                  <em>
+(TC_API_05: POST /verifyLogin without email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationExercise_Test_Suite-class-passed -->
+          <div class="suite-AutomationExercise_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automationexercise.tests.api.ProductsApiTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProductsList_shouldContainKnownProductName">
+                  </a> <!-- getProductsList_shouldContainKnownProductName -->
+                  <span class="method-name">getProductsList_shouldContainKnownProductName</span>
+                  <em>
+(TC_API_03: GET /productsList contains a known product name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProductsList_shouldReturn200AndNonEmptyList">
+                  </a> <!-- getProductsList_shouldReturn200AndNonEmptyList -->
+                  <span class="method-name">getProductsList_shouldReturn200AndNonEmptyList</span>
+                  <em>
+(TC_API_01: GET /productsList returns all products)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postProductsList_shouldReturn405">
+                  </a> <!-- postProductsList_shouldReturn405 -->
+                  <span class="method-name">postProductsList_shouldReturn405</span>
+                  <em>
+(TC_API_02: POST /productsList not allowed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationExercise_Test_Suite-class-passed -->
+        </div> <!-- panel AutomationExercise_Test_Suite -->
+        <div panel-name="test-xml-AutomationExercise_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\NickD\Documents\GitHub\selenium-homework\TA-Final\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;AutomationExercise Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;classes&quot; name=&quot;UI Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.automationexercise.tests.ui.HomeAndAuthTests&quot;/&gt;
+      &lt;class name=&quot;com.automationexercise.tests.ui.CartAndCheckoutTests&quot;/&gt;
+      &lt;class name=&quot;com.automationexercise.tests.ui.ContactAndSearchTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UI Tests --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;classes&quot; name=&quot;API Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.automationexercise.tests.api.ProductsApiTests&quot;/&gt;
+      &lt;class name=&quot;com.automationexercise.tests.api.LoginApiTests&quot;/&gt;
+      &lt;class name=&quot;com.automationexercise.tests.api.AccountApiTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- API Tests --&gt;
+&lt;/suite&gt; &lt;!-- AutomationExercise Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AutomationExercise_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AutomationExercise Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">UI Tests (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">API Tests (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AutomationExercise_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AutomationExercise Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AutomationExercise_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AutomationExercise Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AutomationExercise_Test_Suite');
+function tableData_AutomationExercise_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'placeOrderAfterLogin')
+data.setCell(0, 2, 'com.automationexercise.tests.ui.CartAndCheckoutTests')
+data.setCell(0, 3, 11876);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'registerUserWithValidData')
+data.setCell(1, 2, 'com.automationexercise.tests.ui.HomeAndAuthTests')
+data.setCell(1, 3, 8956);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'logoutUserFromHomePage')
+data.setCell(2, 2, 'com.automationexercise.tests.ui.HomeAndAuthTests')
+data.setCell(2, 3, 8433);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginWithCorrectCredentials')
+data.setCell(3, 2, 'com.automationexercise.tests.ui.HomeAndAuthTests')
+data.setCell(3, 3, 4144);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addProductToCart')
+data.setCell(4, 2, 'com.automationexercise.tests.ui.CartAndCheckoutTests')
+data.setCell(4, 3, 3910);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'searchProductsByKeyword')
+data.setCell(5, 2, 'com.automationexercise.tests.ui.ContactAndSearchTests')
+data.setCell(5, 3, 3442);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getProductsList_shouldContainKnownProductName')
+data.setCell(6, 2, 'com.automationexercise.tests.api.ProductsApiTests')
+data.setCell(6, 3, 3019);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createAccount_withMissingFields_shouldReturn400')
+data.setCell(7, 2, 'com.automationexercise.tests.api.AccountApiTests')
+data.setCell(7, 3, 3019);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'deleteVerifyLogin_shouldReturn405')
+data.setCell(8, 2, 'com.automationexercise.tests.api.LoginApiTests')
+data.setCell(8, 3, 3019);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'loginWithWrongPasswordShowsError')
+data.setCell(9, 2, 'com.automationexercise.tests.ui.HomeAndAuthTests')
+data.setCell(9, 3, 2823);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'removeProductFromCart')
+data.setCell(10, 2, 'com.automationexercise.tests.ui.CartAndCheckoutTests')
+data.setCell(10, 3, 2689);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'sendContactUsMessage')
+data.setCell(11, 2, 'com.automationexercise.tests.ui.ContactAndSearchTests')
+data.setCell(11, 3, 2268);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'searchProduct_withEmptyName_shouldReturnAllProducts')
+data.setCell(12, 2, 'com.automationexercise.tests.api.AccountApiTests')
+data.setCell(12, 3, 986);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'postProductsList_shouldReturn405')
+data.setCell(13, 2, 'com.automationexercise.tests.api.ProductsApiTests')
+data.setCell(13, 3, 967);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyLogin_withoutEmail_shouldReturn400')
+data.setCell(14, 2, 'com.automationexercise.tests.api.LoginApiTests')
+data.setCell(14, 3, 948);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'getProductsList_shouldReturn200AndNonEmptyList')
+data.setCell(15, 2, 'com.automationexercise.tests.api.ProductsApiTests')
+data.setCell(15, 3, 941);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'getBrandsList_shouldReturn200')
+data.setCell(16, 2, 'com.automationexercise.tests.api.AccountApiTests')
+data.setCell(16, 3, 939);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyLogin_withInvalidCredentials_shouldReturn404')
+data.setCell(17, 2, 'com.automationexercise.tests.api.LoginApiTests')
+data.setCell(17, 3, 938);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'searchProduct_withValidName_shouldReturnResults')
+data.setCell(18, 2, 'com.automationexercise.tests.api.AccountApiTests')
+data.setCell(18, 3, 419);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'homePageShouldBeVisible')
+data.setCell(19, 2, 'com.automationexercise.tests.ui.HomeAndAuthTests')
+data.setCell(19, 3, 59);
+window.suiteTableData['AutomationExercise_Test_Suite']= { tableData: data, tableDiv: 'times-div-AutomationExercise_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 47 seconds</span>
+              <div id="times-div-AutomationExercise_Test_Suite">
+              </div> <!-- times-div-AutomationExercise_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AutomationExercise_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AutomationExercise Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AutomationExercise_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AutomationExercise_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.api.AccountApiTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpApi</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.api.LoginApiTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpApi</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.api.ProductsApiTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpApi</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.ui.ContactAndSearchTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.ui.HomeAndAuthTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.ui.CartAndCheckoutTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.api.AccountApiTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createAccount_withMissingFields_shouldReturn400</span>
+                <span class="method-start">462 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.api.ProductsApiTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getProductsList_shouldContainKnownProductName</span>
+                <span class="method-start">462 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.api.LoginApiTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">deleteVerifyLogin_shouldReturn405</span>
+                <span class="method-start">462 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.api.AccountApiTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getBrandsList_shouldReturn200</span>
+                <span class="method-start">3554 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.api.ProductsApiTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getProductsList_shouldReturn200AndNonEmptyList</span>
+                <span class="method-start">3554 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.api.LoginApiTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin_withInvalidCredentials_shouldReturn404</span>
+                <span class="method-start">3554 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin_withoutEmail_shouldReturn400</span>
+                <span class="method-start">4496 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.api.AccountApiTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchProduct_withEmptyName_shouldReturnAllProducts</span>
+                <span class="method-start">4496 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.api.ProductsApiTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">postProductsList_shouldReturn405</span>
+                <span class="method-start">4497 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.api.AccountApiTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchProduct_withValidName_shouldReturnResults</span>
+                <span class="method-start">5484 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.ui.CartAndCheckoutTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addProductToCart</span>
+                <span class="method-start">6025 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.ui.ContactAndSearchTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchProductsByKeyword</span>
+                <span class="method-start">6818 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.ui.HomeAndAuthTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">homePageShouldBeVisible</span>
+                <span class="method-start">8262 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=homePageShouldBeVisible status=SUCCESS method=HomeAndAuthTests.homePageShouldBeVisi...)</span>
+                <span class="method-start">8323 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8481 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.ui.CartAndCheckoutTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=addProductToCart status=SUCCESS method=CartAndCheckoutTests.addProductToCart()[pri:...)</span>
+                <span class="method-start">9937 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">10077 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.ui.ContactAndSearchTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=searchProductsByKeyword status=SUCCESS method=ContactAndSearchTests.searchProductsB...)</span>
+                <span class="method-start">10262 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">10411 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.ui.HomeAndAuthTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginWithCorrectCredentials</span>
+                <span class="method-start">11496 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.ui.ContactAndSearchTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sendContactUsMessage</span>
+                <span class="method-start">14510 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.ui.CartAndCheckoutTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">placeOrderAfterLogin</span>
+                <span class="method-start">15078 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.ui.HomeAndAuthTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginWithCorrectCredentials status=SUCCESS method=HomeAndAuthTests.loginWithCorrect...)</span>
+                <span class="method-start">15642 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15775 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.ui.ContactAndSearchTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sendContactUsMessage status=SUCCESS method=ContactAndSearchTests.sendContactUsMessa...)</span>
+                <span class="method-start">16780 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.ui.HomeAndAuthTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginWithWrongPasswordShowsError</span>
+                <span class="method-start">18577 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginWithWrongPasswordShowsError status=SUCCESS method=HomeAndAuthTests.loginWithWr...)</span>
+                <span class="method-start">21402 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">21525 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logoutUserFromHomePage</span>
+                <span class="method-start">26365 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.ui.CartAndCheckoutTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=placeOrderAfterLogin status=SUCCESS method=CartAndCheckoutTests.placeOrderAfterLogi...)</span>
+                <span class="method-start">26956 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">27128 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeProductFromCart</span>
+                <span class="method-start">32456 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.ui.HomeAndAuthTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=logoutUserFromHomePage status=SUCCESS method=HomeAndAuthTests.logoutUserFromHomePag...)</span>
+                <span class="method-start">34800 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">34932 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.ui.CartAndCheckoutTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=removeProductFromCart status=SUCCESS method=CartAndCheckoutTests.removeProductFromC...)</span>
+                <span class="method-start">35147 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automationexercise.tests.ui.HomeAndAuthTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">registerUserWithValidData</span>
+                <span class="method-start">38220 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=registerUserWithValidData status=SUCCESS method=HomeAndAuthTests.registerUserWithVa...)</span>
+                <span class="method-start">47177 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

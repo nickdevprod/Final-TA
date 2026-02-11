@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-12T01:41:31 GMT+04:00" name="AutomationExercise Test Suite" finished-at="2026-02-12T01:42:19 GMT+04:00" duration-ms="47356">
+    <groups>
+    </groups>
+    <test started-at="2026-02-12T01:41:31 GMT+04:00" name="API Tests" finished-at="2026-02-12T01:41:37 GMT+04:00" duration-ms="5949">
+      <class name="com.automationexercise.tests.api.LoginApiTests">
+        <test-method is-config="true" signature="setUpApi()[pri:0, instance:com.automationexercise.tests.api.LoginApiTests@54422e18]" started-at="2026-02-12T01:41:31 GMT+04:00" name="setUpApi" finished-at="2026-02-12T01:41:32 GMT+04:00" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpApi -->
+        <test-method signature="deleteVerifyLogin_shouldReturn405()[pri:0, instance:com.automationexercise.tests.api.LoginApiTests@54422e18]" started-at="2026-02-12T01:41:32 GMT+04:00" name="deleteVerifyLogin_shouldReturn405" description="TC_API_06: DELETE /verifyLogin not allowed" finished-at="2026-02-12T01:41:35 GMT+04:00" duration-ms="3019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteVerifyLogin_shouldReturn405 -->
+        <test-method signature="verifyLogin_withInvalidCredentials_shouldReturn404()[pri:0, instance:com.automationexercise.tests.api.LoginApiTests@54422e18]" started-at="2026-02-12T01:41:35 GMT+04:00" name="verifyLogin_withInvalidCredentials_shouldReturn404" description="TC_API_04: POST /verifyLogin with invalid credentials" finished-at="2026-02-12T01:41:36 GMT+04:00" duration-ms="938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin_withInvalidCredentials_shouldReturn404 -->
+        <test-method signature="verifyLogin_withoutEmail_shouldReturn400()[pri:0, instance:com.automationexercise.tests.api.LoginApiTests@54422e18]" started-at="2026-02-12T01:41:36 GMT+04:00" name="verifyLogin_withoutEmail_shouldReturn400" description="TC_API_05: POST /verifyLogin without email" finished-at="2026-02-12T01:41:37 GMT+04:00" duration-ms="948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin_withoutEmail_shouldReturn400 -->
+      </class> <!-- com.automationexercise.tests.api.LoginApiTests -->
+      <class name="com.automationexercise.tests.api.ProductsApiTests">
+        <test-method is-config="true" signature="setUpApi()[pri:0, instance:com.automationexercise.tests.api.ProductsApiTests@543295b0]" started-at="2026-02-12T01:41:31 GMT+04:00" name="setUpApi" finished-at="2026-02-12T01:41:32 GMT+04:00" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpApi -->
+        <test-method signature="getProductsList_shouldContainKnownProductName()[pri:0, instance:com.automationexercise.tests.api.ProductsApiTests@543295b0]" started-at="2026-02-12T01:41:32 GMT+04:00" name="getProductsList_shouldContainKnownProductName" description="TC_API_03: GET /productsList contains a known product name" finished-at="2026-02-12T01:41:35 GMT+04:00" duration-ms="3019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductsList_shouldContainKnownProductName -->
+        <test-method signature="getProductsList_shouldReturn200AndNonEmptyList()[pri:0, instance:com.automationexercise.tests.api.ProductsApiTests@543295b0]" started-at="2026-02-12T01:41:35 GMT+04:00" name="getProductsList_shouldReturn200AndNonEmptyList" description="TC_API_01: GET /productsList returns all products" finished-at="2026-02-12T01:41:36 GMT+04:00" duration-ms="941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductsList_shouldReturn200AndNonEmptyList -->
+        <test-method signature="postProductsList_shouldReturn405()[pri:0, instance:com.automationexercise.tests.api.ProductsApiTests@543295b0]" started-at="2026-02-12T01:41:36 GMT+04:00" name="postProductsList_shouldReturn405" description="TC_API_02: POST /productsList not allowed" finished-at="2026-02-12T01:41:37 GMT+04:00" duration-ms="967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postProductsList_shouldReturn405 -->
+      </class> <!-- com.automationexercise.tests.api.ProductsApiTests -->
+      <class name="com.automationexercise.tests.api.AccountApiTests">
+        <test-method is-config="true" signature="setUpApi()[pri:0, instance:com.automationexercise.tests.api.AccountApiTests@117159c0]" started-at="2026-02-12T01:41:31 GMT+04:00" name="setUpApi" finished-at="2026-02-12T01:41:32 GMT+04:00" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpApi -->
+        <test-method signature="createAccount_withMissingFields_shouldReturn400()[pri:0, instance:com.automationexercise.tests.api.AccountApiTests@117159c0]" started-at="2026-02-12T01:41:32 GMT+04:00" name="createAccount_withMissingFields_shouldReturn400" description="TC_API_07: POST /createAccount with missing fields" finished-at="2026-02-12T01:41:35 GMT+04:00" duration-ms="3019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount_withMissingFields_shouldReturn400 -->
+        <test-method signature="getBrandsList_shouldReturn200()[pri:0, instance:com.automationexercise.tests.api.AccountApiTests@117159c0]" started-at="2026-02-12T01:41:35 GMT+04:00" name="getBrandsList_shouldReturn200" description="TC_API_08: GET /brandsList returns 200" finished-at="2026-02-12T01:41:36 GMT+04:00" duration-ms="939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrandsList_shouldReturn200 -->
+        <test-method signature="searchProduct_withEmptyName_shouldReturnAllProducts()[pri:0, instance:com.automationexercise.tests.api.AccountApiTests@117159c0]" started-at="2026-02-12T01:41:36 GMT+04:00" name="searchProduct_withEmptyName_shouldReturnAllProducts" description="TC_API_10: POST /searchProduct with empty term" finished-at="2026-02-12T01:41:37 GMT+04:00" duration-ms="986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct_withEmptyName_shouldReturnAllProducts -->
+        <test-method signature="searchProduct_withValidName_shouldReturnResults()[pri:0, instance:com.automationexercise.tests.api.AccountApiTests@117159c0]" started-at="2026-02-12T01:41:37 GMT+04:00" name="searchProduct_withValidName_shouldReturnResults" description="TC_API_09: POST /searchProduct with valid term" finished-at="2026-02-12T01:41:37 GMT+04:00" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct_withValidName_shouldReturnResults -->
+      </class> <!-- com.automationexercise.tests.api.AccountApiTests -->
+    </test> <!-- API Tests -->
+    <test started-at="2026-02-12T01:41:31 GMT+04:00" name="UI Tests" finished-at="2026-02-12T01:42:19 GMT+04:00" duration-ms="47356">
+      <class name="com.automationexercise.tests.ui.HomeAndAuthTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7]" started-at="2026-02-12T01:41:31 GMT+04:00" name="setUp" finished-at="2026-02-12T01:41:40 GMT+04:00" duration-ms="8246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePageShouldBeVisible()[pri:0, instance:com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7]" started-at="2026-02-12T01:41:40 GMT+04:00" name="homePageShouldBeVisible" description="TC_UI_01: Home page is visible after opening site" finished-at="2026-02-12T01:41:40 GMT+04:00" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageShouldBeVisible -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7]" started-at="2026-02-12T01:41:40 GMT+04:00" name="tearDown" finished-at="2026-02-12T01:41:40 GMT+04:00" duration-ms="156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePageShouldBeVisible status=SUCCESS method=HomeAndAuthTests.homePageShouldBeVisible()[pri:0, instance:com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7]" started-at="2026-02-12T01:41:40 GMT+04:00" name="setUp" finished-at="2026-02-12T01:41:43 GMT+04:00" duration-ms="3012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithCorrectCredentials()[pri:0, instance:com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7]" started-at="2026-02-12T01:41:43 GMT+04:00" name="loginWithCorrectCredentials" description="TC_UI_03: Login with correct email and password" finished-at="2026-02-12T01:41:47 GMT+04:00" duration-ms="4144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithCorrectCredentials -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7]" started-at="2026-02-12T01:41:47 GMT+04:00" name="tearDown" finished-at="2026-02-12T01:41:47 GMT+04:00" duration-ms="131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithCorrectCredentials status=SUCCESS method=HomeAndAuthTests.loginWithCorrectCredentials()[pri:0, instance:com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7]" started-at="2026-02-12T01:41:47 GMT+04:00" name="setUp" finished-at="2026-02-12T01:41:50 GMT+04:00" duration-ms="2801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithWrongPasswordShowsError()[pri:0, instance:com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7]" started-at="2026-02-12T01:41:50 GMT+04:00" name="loginWithWrongPasswordShowsError" description="TC_UI_04: Login with wrong password" finished-at="2026-02-12T01:41:53 GMT+04:00" duration-ms="2823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongPasswordShowsError -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7]" started-at="2026-02-12T01:41:53 GMT+04:00" name="tearDown" finished-at="2026-02-12T01:41:53 GMT+04:00" duration-ms="121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithWrongPasswordShowsError status=SUCCESS method=HomeAndAuthTests.loginWithWrongPasswordShowsError()[pri:0, instance:com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7]" started-at="2026-02-12T01:41:53 GMT+04:00" name="setUp" finished-at="2026-02-12T01:41:58 GMT+04:00" duration-ms="4839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoutUserFromHomePage()[pri:0, instance:com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7]" started-at="2026-02-12T01:41:58 GMT+04:00" name="logoutUserFromHomePage" description="TC_UI_05: Logout user from header" finished-at="2026-02-12T01:42:06 GMT+04:00" duration-ms="8433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUserFromHomePage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7]" started-at="2026-02-12T01:42:06 GMT+04:00" name="tearDown" finished-at="2026-02-12T01:42:06 GMT+04:00" duration-ms="130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoutUserFromHomePage status=SUCCESS method=HomeAndAuthTests.logoutUserFromHomePage()[pri:0, instance:com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7]" started-at="2026-02-12T01:42:06 GMT+04:00" name="setUp" finished-at="2026-02-12T01:42:10 GMT+04:00" duration-ms="3286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerUserWithValidData()[pri:0, instance:com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7]" started-at="2026-02-12T01:42:10 GMT+04:00" name="registerUserWithValidData" description="TC_UI_02: Register user with valid info" finished-at="2026-02-12T01:42:19 GMT+04:00" duration-ms="8956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUserWithValidData -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7]" started-at="2026-02-12T01:42:19 GMT+04:00" name="tearDown" finished-at="2026-02-12T01:42:19 GMT+04:00" duration-ms="135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerUserWithValidData status=SUCCESS method=HomeAndAuthTests.registerUserWithValidData()[pri:0, instance:com.automationexercise.tests.ui.HomeAndAuthTests@4dbb42b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationexercise.tests.ui.HomeAndAuthTests -->
+      <class name="com.automationexercise.tests.ui.CartAndCheckoutTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercise.tests.ui.CartAndCheckoutTests@54e1c68b]" started-at="2026-02-12T01:41:31 GMT+04:00" name="setUp" finished-at="2026-02-12T01:41:37 GMT+04:00" duration-ms="6005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addProductToCart()[pri:0, instance:com.automationexercise.tests.ui.CartAndCheckoutTests@54e1c68b]" started-at="2026-02-12T01:41:37 GMT+04:00" name="addProductToCart" description="TC_UI_06: Add product to cart and see it there" finished-at="2026-02-12T01:41:41 GMT+04:00" duration-ms="3910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automationexercise.tests.ui.CartAndCheckoutTests@54e1c68b]" started-at="2026-02-12T01:41:41 GMT+04:00" name="tearDown" finished-at="2026-02-12T01:41:42 GMT+04:00" duration-ms="138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProductToCart status=SUCCESS method=CartAndCheckoutTests.addProductToCart()[pri:0, instance:com.automationexercise.tests.ui.CartAndCheckoutTests@54e1c68b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercise.tests.ui.CartAndCheckoutTests@54e1c68b]" started-at="2026-02-12T01:41:42 GMT+04:00" name="setUp" finished-at="2026-02-12T01:41:47 GMT+04:00" duration-ms="4999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="placeOrderAfterLogin()[pri:0, instance:com.automationexercise.tests.ui.CartAndCheckoutTests@54e1c68b]" started-at="2026-02-12T01:41:47 GMT+04:00" name="placeOrderAfterLogin" description="TC_UI_08: Reach checkout after login" finished-at="2026-02-12T01:41:58 GMT+04:00" duration-ms="11876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderAfterLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automationexercise.tests.ui.CartAndCheckoutTests@54e1c68b]" started-at="2026-02-12T01:41:58 GMT+04:00" name="tearDown" finished-at="2026-02-12T01:41:59 GMT+04:00" duration-ms="171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=placeOrderAfterLogin status=SUCCESS method=CartAndCheckoutTests.placeOrderAfterLogin()[pri:0, instance:com.automationexercise.tests.ui.CartAndCheckoutTests@54e1c68b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercise.tests.ui.CartAndCheckoutTests@54e1c68b]" started-at="2026-02-12T01:41:59 GMT+04:00" name="setUp" finished-at="2026-02-12T01:42:04 GMT+04:00" duration-ms="5327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="removeProductFromCart()[pri:0, instance:com.automationexercise.tests.ui.CartAndCheckoutTests@54e1c68b]" started-at="2026-02-12T01:42:04 GMT+04:00" name="removeProductFromCart" description="TC_UI_07: Remove product from cart" finished-at="2026-02-12T01:42:07 GMT+04:00" duration-ms="2689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductFromCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automationexercise.tests.ui.CartAndCheckoutTests@54e1c68b]" started-at="2026-02-12T01:42:07 GMT+04:00" name="tearDown" finished-at="2026-02-12T01:42:07 GMT+04:00" duration-ms="157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeProductFromCart status=SUCCESS method=CartAndCheckoutTests.removeProductFromCart()[pri:0, instance:com.automationexercise.tests.ui.CartAndCheckoutTests@54e1c68b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationexercise.tests.ui.CartAndCheckoutTests -->
+      <class name="com.automationexercise.tests.ui.ContactAndSearchTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercise.tests.ui.ContactAndSearchTests@53aac487]" started-at="2026-02-12T01:41:31 GMT+04:00" name="setUp" finished-at="2026-02-12T01:41:38 GMT+04:00" duration-ms="6801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchProductsByKeyword()[pri:0, instance:com.automationexercise.tests.ui.ContactAndSearchTests@53aac487]" started-at="2026-02-12T01:41:38 GMT+04:00" name="searchProductsByKeyword" description="TC_UI_10: Search products by keyword" finished-at="2026-02-12T01:41:42 GMT+04:00" duration-ms="3442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductsByKeyword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automationexercise.tests.ui.ContactAndSearchTests@53aac487]" started-at="2026-02-12T01:41:42 GMT+04:00" name="tearDown" finished-at="2026-02-12T01:41:42 GMT+04:00" duration-ms="147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchProductsByKeyword status=SUCCESS method=ContactAndSearchTests.searchProductsByKeyword()[pri:0, instance:com.automationexercise.tests.ui.ContactAndSearchTests@53aac487] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercise.tests.ui.ContactAndSearchTests@53aac487]" started-at="2026-02-12T01:41:42 GMT+04:00" name="setUp" finished-at="2026-02-12T01:41:46 GMT+04:00" duration-ms="4098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sendContactUsMessage()[pri:0, instance:com.automationexercise.tests.ui.ContactAndSearchTests@53aac487]" started-at="2026-02-12T01:41:46 GMT+04:00" name="sendContactUsMessage" description="TC_UI_09: Submit &#039;Contact Us&#039; form" finished-at="2026-02-12T01:41:48 GMT+04:00" duration-ms="2268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendContactUsMessage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automationexercise.tests.ui.ContactAndSearchTests@53aac487]" started-at="2026-02-12T01:41:48 GMT+04:00" name="tearDown" finished-at="2026-02-12T01:41:48 GMT+04:00" duration-ms="152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sendContactUsMessage status=SUCCESS method=ContactAndSearchTests.sendContactUsMessage()[pri:0, instance:com.automationexercise.tests.ui.ContactAndSearchTests@53aac487] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationexercise.tests.ui.ContactAndSearchTests -->
+    </test> <!-- UI Tests -->
+  </suite> <!-- AutomationExercise Test Suite -->
+</testng-results>
