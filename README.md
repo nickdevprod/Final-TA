@@ -55,9 +55,9 @@ API Automated Test Cases
 
 How to Run(kinda important)
 
-tests can be run by simply from testing xml or using maven(which was my choice)
-I am using headless mode because it was faster and more realiable but it can be disabled if needed
-I also include folder with screenshoots of allure reports to save time for our dear lecturer
+ tests can be run by simply from testing xml or using maven(which was my choice)
+ I am using headless mode because it was faster and more realiable but it can be disabled if needed
+ I also include folder with screenshoots of allure reports to save time for our dear lecturer
 
-Thank you for reading my readme.
+ Thank you for reading my readme.
 
