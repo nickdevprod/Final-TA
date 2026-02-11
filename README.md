@@ -1,5 +1,9 @@
 Test Automation Project – Fall 2026
 Author: Nikoloz Sigua  
+
+Account used:
+ nikoloz.test.user@example.com
+ test123
   
 
 
